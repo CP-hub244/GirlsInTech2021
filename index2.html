@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset = 'utf-8'>
+        <style>
+            .button {
+                background-color: lightseagreen;
+                color: black;
+                margin-left: 50%;
+                margin-right: 50%;
+                margin-top: 10%;
+                padding: 30px 60px;
+                box-shadow: 2px 2px 5px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+            }
+           .dropbtn {
+  background-color: lightskyblue;
+  color: black;
+  padding: 25px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  text-align: (0,0);
+}
+.dropbtn2 {
+  background-color: lavender;
+  color: black;
+  padding: 25px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  text-align: (0,0);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;}
+  .dropdown:hover .dropbtn {
+  background-color:lightskyblue;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn">Hover over me to choose your desired age group:</button>
+            <div class="dropdown-content">
+              <a href="#"> >10</a>
+              <a href="#">11-13</a>
+              <a href="#">14-16</a>
+              <a href="#">17-20</a>
+              <a href="#">21+</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn2">Hover over me to choose your desired story genre:</button>
+            <div class="dropdown-content">
+                <a href="#">Horror</a>
+                <a href="#">Romance</a>
+                <a href="#">Mystery</a>
+                <a href="#">Tragedy</a>
+                <a href="#">Fantasy</a>
+            </div>
+        </div>
+        <div>
+            <button class="button" type="button">Click Here!</button>
+        </div>
+
+
+        
+    </body>
+    </html>
